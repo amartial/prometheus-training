@@ -35,7 +35,7 @@ echo http://$NODE_IP:$NODE_PORT
 
 kubectl get svc
 
-kubectl port-forward --address 0.0.0.0 svc/grafana-service 9000:9000
+kubectl port-forward --address 0.0.0.0 svc/grafana-dashboard 9000:9000
 
 
 # Connexion grafana prometheus - configuration datasource
